@@ -31,7 +31,8 @@ COMPRESSED_STATIC_FILES = False
 # absolute path where the paste files should be store
 # default in projectdirectory/static/content/
 # use "/" even under Windows
-PASTE_FILES_ROOT = os.path.join(STATIC_FILES_ROOT, 'content')
+#PASTE_FILES_ROOT = os.path.join(STATIC_FILES_ROOT, 'content')
+PASTE_FILES_ROOT = os.path.join('/', 'var', 'zerobin', 'content')
 
 # a tuple of absolute paths of directory where to look the template for
 # the first one will be the first to be looked into
